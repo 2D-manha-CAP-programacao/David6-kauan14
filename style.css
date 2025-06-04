@@ -1,0 +1,20 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pixelify+Sans:wght@400..700&display=swap');
+body{
+    background-color: rgb(109, 59, 156);
+    font-family: "Pixelify Sans", sans-serif;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    position:fixed;
+    bottom 0;
+    width: 100%;
+}
+
+footerp(
+    text-align: center;
+    font-size: o.6rem;
+    margin-top: 0.5rem;
+)
