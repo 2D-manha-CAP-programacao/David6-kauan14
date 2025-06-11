@@ -9,12 +9,30 @@ footer{
     background-color: black;
     color: white;
     position:fixed;
-    bottom 0;
+    bottom: 0;
     width: 100%;
+
 }
 
-footerp(
+footer p{
     text-align: center;
     font-size: o.6rem;
     margin-top: 0.5rem;
-)
+}
+
+#container{
+    display: flex;
+}
+
+
+.cartao{
+    margin: 2rem 2rem;
+    background-color: red;
+    height: 20rem;
+    flex-grow: 1;
+    flex-basis: calc(33% - .6rem);
+}
+
+.cartao_conteudo{
+    text-align:  center;
+}
